@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Multimedia a HTML">
+	<meta name="author" content="Daniel Antoš">
+	<title>Multimedia a HTML</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<link rel="stylesheet" href="css/styly.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="#">Multimedia a HTML</a>
+		<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+			aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+		<div class="collapse navbar-collapse" id="collapsibleNavId">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Tabulky</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="multimedia.html">Multimédia</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="fotogalerie.html">Fotogalerie</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<header class="jumbotron">
+		<h1>Multimedia a HTML</h1>
+	</header>
+	<div class="container">
+		<table>
+			<caption>Vizitka slavné osobnosti</caption>
+			<thead>
+				<tr>
+					<th>Portrét</th>
+					<th colspan="2">Základní údaje</th>
+					<th>Významné činy</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="obrazek" rowspan="3"><img src="./img/kubis.jpg" alt="Jan Kubiš" height="300"></td>
+					<td colspan="2">Jan Kubiš</td>
+					<td rowspan="4"><br>Byl součástí operace Anthropoid </td>
+				</tr>
+				<tr>
+					<td>24. června 1913</td>
+					<td>18. června 1942 (28)</td>
+				</tr>
+				<tr>
+					<td rowspan="2" colspan="2"> Jan Kubiš (24 June 1913 – 18 June 1942) was a Czech
+						soldier, one of a team of Czechoslovak British-trained paratroopers sent to eliminate acting
+						Reichsprotektor (Realm-Protector) of Bohemia and Moravia, SS-Obergruppenführer Reinhard
+						Heydrich, in 1942 as part of Operation Anthropoid. During the attack, Kubiš threw the bomb
+						that mortally wounded Heydrich</td>
+				</tr>
+				<tr>
+					<td>Jan Kubiš</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="4"><a href="https://en.wikipedia.org/wiki/Jan_Kubi%C5%A1" target="_blank">Odkaz na
+							Wikipedii</a></td>
+				</tr>
+			</tfoot>
+		</table>
+		<h2>Značky a atributy tabulky</h2>
+		<dl>
+			<dt>&lt;colspan&gt;</dt>
+			<dd>Atribut zajišťující rozpětí přes několik sloupců.</dd>
+			<dt>&lt;rowspan&gt;</dt>
+			<dd>Atribut zajišťující rozpětí přes několik řádků.</dd>
+			<dt>&lt;table&gt;</dt>
+			<dd>Značka, která vytvoří ohraničení tabulky</dd>
+			<dt>&lt;thead&gt;</dt>
+			<dd>Záhlaví tabulky</dd>
+			<dt>&lt;tbody&gt;</dt>
+			<dd>Tělo tabulky</dd>
+			<dt>&lt;tfoot&gt;</dt>
+			<dd>Zápatí tabulky</dd>
+			<dt>&lt;tr&gt;</dt>
+			<dd>Řada tabulky</dd>
+			<dt>&lt;th&gt;</dt>
+			<dd>Nadpis sloupce tabulky</dd>
+			<dt>&lt;td&gt;</dt>
+			<dd>Buňky tabulky</dd>
+		</dl>
+	</div>
+	<footer>
+		<h4>Autor stránky</h4>
+		<p>Daniel Antoš, IT1</p>
+	</footer>
+	<script src="css/lightbox.min.css"></script>
+	<script src="js/lightbox.min.js"></script>
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
